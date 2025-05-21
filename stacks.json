@@ -1,0 +1,114 @@
+{
+  "react-native": {
+    "linux": ["npm install -g @react-native-community/cli"],
+    "macos": ["npm install -g @react-native-community/cli"],
+    "windows": ["npm install -g @react-native-community/cli"]
+  },
+  "mern": {
+    "linux": [
+      "npm install -g create-react-app",
+      "npm install -g express",
+      "sudo apt-get install -y mongodb"
+    ],
+    "macos": [
+      "npm install -g create-react-app",
+      "npm install -g express",
+      "brew install mongodb-community"
+    ],
+    "windows": [
+      "npm install -g create-react-app",
+      "npm install -g express",
+      "choco install mongodb"
+    ]
+  },
+  "python-ml": {
+    "linux": ["pip install tensorflow opencv-python jupyter"],
+    "macos": ["pip install tensorflow opencv-python jupyter"],
+    "windows": ["pip install tensorflow opencv-python jupyter"]
+  },
+  "django": {
+    "linux": ["pip install django psycopg2-binary"],
+    "macos": ["pip install django psycopg2-binary"],
+    "windows": ["pip install django psycopg2-binary"]
+  },
+  "lamp": {
+    "linux": [
+      "sudo apt-get install -y apache2",
+      "sudo apt-get install -y mysql-server",
+      "sudo apt-get install -y php libapache2-mod-php php-mysql"
+    ],
+    "macos": [
+      "brew install httpd",
+      "brew install mysql",
+      "brew install php"
+    ],
+    "windows": [
+      "choco install apache-httpd",
+      "choco install mysql",
+      "choco install php"
+    ]
+  },
+  "flutter": {
+    "linux": [
+      "sudo snap install flutter --classic",
+      "flutter doctor"
+    ],
+    "macos": [
+      "brew install --cask flutter",
+      "flutter doctor"
+    ],
+    "windows": [
+      "choco install flutter",
+      "flutter doctor"
+    ]
+  },
+  "spring-boot": {
+    "linux": [
+      "sudo apt-get install -y openjdk-17-jdk",
+      "curl -s https://get.sdkman.io | bash",
+      "sdk install springboot"
+    ],
+    "macos": [
+      "brew install openjdk@17",
+      "curl -s https://get.sdkman.io | bash",
+      "sdk install springboot"
+    ],
+    "windows": [
+      "choco install openjdk17",
+      "scoop install spring-boot"
+    ]
+  },
+  "ruby-on-rails": {
+    "linux": [
+      "sudo apt-get install -y ruby-full",
+      "gem install rails"
+    ],
+    "macos": [
+      "brew install ruby",
+      "gem install rails"
+    ],
+    "windows": [
+      "choco install ruby",
+      "gem install rails"
+    ]
+  },
+  "vue": {
+    "linux": ["npm install -g @vue/cli"],
+    "macos": ["npm install -g @vue/cli"],
+    "windows": ["npm install -g @vue/cli"]
+  },
+  "laravel": {
+    "linux": [
+      "sudo apt-get install -y php composer",
+      "composer global require laravel/installer"
+    ],
+    "macos": [
+      "brew install php composer",
+      "composer global require laravel/installer"
+    ],
+    "windows": [
+      "choco install php composer",
+      "composer global require laravel/installer"
+    ]
+  }
+}
