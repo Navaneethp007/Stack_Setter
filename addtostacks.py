@@ -8,7 +8,6 @@ def more_stacks(stack):
     response = ollama.generate(
         model="mistral",
         prompt = f"Provide only the installation commands for {stack} for windows,linux and macos in the format as mentioned: {{'stack_name': {{'os_name': ['command1', 'command2', ...]}}}}. Do not include any other text or explanation."    )
-    print(response['response'])
     try:
       nstack = json.loads(response['response'].lower())
       stacks.update(nstack)
