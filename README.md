@@ -1,6 +1,6 @@
 # StackTool
 
-StackTool is a command-line interface (CLI) tool designed to automate the installation of tech stacks based on user prompts. It checks for prerequisites, installs stacks using predefined commands, and provides stack suggestions with explanations using a local language model (Mistral 7B via Ollama). Phase 1 focuses on core functionality, with plans for expansion in future phases.
+StackTool is a command-line interface (CLI) tool designed to automate the installation of tech stacks based on user prompts. It checks for prerequisites, installs stacks using predefined commands, and provides stack suggestions with explanations using a local language model (Mistral 7B via Ollama). 
 
 ## Features
 - **Install Stacks**: Automatically install tech stacks (e.g., React Native, MERN, Django) using OS-specific commands from `stacks.json`.
