@@ -9,10 +9,3 @@ StackTool is a command-line interface (CLI) tool designed to automate the instal
 - **Use Case Recommendations**: Suggests stacks for specific use cases (e.g., "web development").
 - **Cross-Platform**: Supports Windows, Linux, and macOS.
 
-## Requirements
-- Python 3.9+
-- Ollama [](https://ollama.ai) with Mistral 7B model (`ollama pull mistral`)
-- Node.js (for stacks like React Native, MERN, Vue)
-- Python (for stacks like Django, Python-ML)
-- Chocolatey (for Windows stacks like Flutter, LAMP)
-- `stacks.json` file with installation commands
